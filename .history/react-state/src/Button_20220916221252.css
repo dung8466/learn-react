@@ -1,0 +1,11 @@
+.Container{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    text-align: center;
+    display: flex;
+}
+
+.Container button{
+    padding: 0.5rem 1rem;
+    background-color: #cecff1;
+}

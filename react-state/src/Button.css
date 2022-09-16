@@ -1,0 +1,19 @@
+.Container{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    text-align: center; 
+}
+
+.Container button{
+    padding: 0.5rem 1rem;
+    background-color: #cecff1;
+}
+
+.Container button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.Container h2{
+    color: green;
+}
