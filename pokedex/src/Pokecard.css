@@ -1,0 +1,35 @@
+.Pokecard{
+    margin: 0.5rem 0.5rem;
+    padding: 1rem;
+    border: 1px solid black;
+    width: 10rem;
+    box-shadow: 5px 10px 12px -5px rgba(0,0,0,0.56);
+    border-radius: 5px;
+    background-color: #f0ffff;
+}
+.PokeName{
+    font-size: 16px;
+    font-weight: 800;
+    font-family: monospace;
+    background-image: linear-gradient(to left, red, orange, yellow, green, blue, indigo, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.PokeImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7rem;
+    border: 0.6px solid black;
+    border-radius: 3px;
+    margin-bottom: 0.6rem;
+    background-color: #eceff1;
+}
+.PokeImg img{
+    width: 6rem;
+    transition: all ease 300ms;
+}
+
+.PokeImg img:hover{
+    transform: scale(2);
+}
