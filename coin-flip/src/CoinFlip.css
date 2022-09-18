@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2em;
+}
+
+.container  button{
+    padding: 0.7em 3em;
+    border: 1px;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: cornflowerblue;
+}
+
+.container  button:hover{
+    background-color: slateblue;
+    color: white;
+}
+
+.container p{
+    font-size: 1.6em;
+    font-weight: 600;
+}

@@ -1,0 +1,19 @@
+.lotto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2em;
+    border: 2px solid black;
+    min-width: 50em;
+    min-height: 20em;
+    /* margin-top: 3em;
+    margin-left: 23em; */
+}
+
+.lotto h1{
+    font-size: 2em;
+    font-weight: 500;
+    color: slateblue;
+}

@@ -1,0 +1,6 @@
+.ball{
+    padding: 0.25em;
+    background-color: orange;
+    box-sizing: border-box;
+    border-radius: 50%;
+}

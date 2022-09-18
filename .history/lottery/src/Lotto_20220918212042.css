@@ -1,0 +1,34 @@
+.lotto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5em;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: aquamarine;
+    width: 50em;
+    height: 20em;
+    margin-top: 1.5em;
+    /* margin-left: 23em; */
+    padding: 2em;
+}
+
+.lotto h1{
+    font-size: 1.5em;
+    font-weight: 500;
+    color: black;
+    /* width: 10em;
+    height: 2em; */
+}
+
+.btn{
+    width: 7em;
+    height: 2em;
+    background-color: salmon;
+    border: 0px;
+    border-radius: 15px;
+    cursor: pointer;
+    color: white;
+    font-size: 1em;
+}
