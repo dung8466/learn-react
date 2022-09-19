@@ -1,0 +1,7 @@
+.box{
+    width: 15em;
+    height: 15em;
+    /* background-color: black; */
+    border: 1px solid wheat;
+    cursor: pointer;
+}
