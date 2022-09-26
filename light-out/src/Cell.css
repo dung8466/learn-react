@@ -1,0 +1,37 @@
+.Cell {
+    cursor: pointer;
+	position: relative;
+	display: inline-block;
+	width: 90px;
+	height: 90px;
+	margin: 10px;
+	padding: 0px;
+	border: none;
+	border-radius: 10px;
+	box-shadow: 0px 2px 10px 1px #BBB;
+	background-color: Gray;
+	-webkit-transition: background-color .3s;
+    transition: background-color .3s;
+  }
+.Cell:hover{
+    box-shadow: 
+	    0px 0px 0px 6px GoldenRod,
+	    0px 2px 10px 1px #BBB;
+}
+.Cell-lit::before{
+    /* content: "\f0eb";
+	font-family: FontAwesome; */
+	color: #EEE;
+	font-size: 50px;
+	/* position: absolute; */
+	top: 13%;
+	left: 33%;
+}
+  .Cell-lit {
+    background-color: Gold;
+  }
+.Cell-lit:hover{
+    box-shadow: 
+		0px 0px 0px 6px DimGrey,
+		0px 2px 10px 1px #BBB;
+}
