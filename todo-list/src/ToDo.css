@@ -1,0 +1,81 @@
+.todo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #d7dadc;
+  padding: 0;
+  margin: 0.5em;
+  width: 80vh;
+  min-height: 10vh;
+  background-color: #464748;
+}
+
+
+.todo li{
+  text-align: center;
+  float: left;
+  height: 7em;
+  width: 20em;
+}
+.todo li p{
+  word-wrap: break-word;
+  text-align: center;
+  position: relative;
+  margin-right: 3%;
+  margin-top: 15%;
+}
+
+.Todo_completed{
+  background: #464748;
+  text-decoration: line-through;
+}
+.noEdit img{
+  height: 3em;
+  opacity: 0;
+}
+
+.edit, .delete, .save, .noEdit{
+  background-color: #464748;
+}
+.edit img{
+  height: 3em;
+}
+
+.delete img{
+  height: 2.6em;
+}
+.editForm{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #d7dadc;
+  padding: 0;
+  margin: 0.5em;
+  width: 80vh;
+  min-height: 14.7vh;
+  background-color: #464748;
+}
+ .editForm input{
+  background-color: #464748;
+  color: #d7dadc;
+  border-radius: 20px;
+  width: 17em;
+  height: 1.5em;
+
+ }
+ .editForm input:focus{
+  background-color:  #1F1B24;
+  border: none;
+}
+.editForm input:hover{
+  background-color:  #1F1B24;
+}
+.save img{
+  
+  margin-left: 3em;
+  height: 2em;
+}
